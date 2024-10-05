@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0fcf39a5ae6323b3ad04d0d3e0652c29 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0fcf39a5ae6323b3ad04d0d3e0652c29" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0fcf39a5ae6323b3ad04d0d3e0652c29 = L.map(
+                "map_0fcf39a5ae6323b3ad04d0d3e0652c29",
+                {
+                    center: [-0.9766666666666668, 120.28222222222222],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0b8d8898ff70f59908893fb57ef00943 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0b8d8898ff70f59908893fb57ef00943.addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+            var marker_d55f136250ebdd96607200a247b34640 = L.marker(
+                [2.58, 122.94],
+                {}
+            ).addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+        var popup_58de38f4c87ed8323a934c354c93c71b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7ce077cf91bcb38fd2fe8497371aad3 = $(`<div id="html_f7ce077cf91bcb38fd2fe8497371aad3" style="width: 100.0%; height: 100.0%;">Depth: 472 km, Magnitude: 4.8, Tsunami Year: 2009</div>`)[0];
+                popup_58de38f4c87ed8323a934c354c93c71b.setContent(html_f7ce077cf91bcb38fd2fe8497371aad3);
+            
+        
+
+        marker_d55f136250ebdd96607200a247b34640.bindPopup(popup_58de38f4c87ed8323a934c354c93c71b)
+        ;
+
+        
+    
+    
+            var marker_8d180e2c2be2ca8f8eabdd72bf8a819d = L.marker(
+                [-6.92, 125.29],
+                {}
+            ).addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+        var popup_47dc90becf6d720250d74d63292d9c2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edb849b6d282a0bf8d082d2df6cd2d79 = $(`<div id="html_edb849b6d282a0bf8d082d2df6cd2d79" style="width: 100.0%; height: 100.0%;">Depth: 539 km, Magnitude: 4.3, Tsunami Year: 2012</div>`)[0];
+                popup_47dc90becf6d720250d74d63292d9c2f.setContent(html_edb849b6d282a0bf8d082d2df6cd2d79);
+            
+        
+
+        marker_8d180e2c2be2ca8f8eabdd72bf8a819d.bindPopup(popup_47dc90becf6d720250d74d63292d9c2f)
+        ;
+
+        
+    
+    
+            var marker_708a74d660b3e71b9a009d1e0478a3df = L.marker(
+                [3.09, 122.52],
+                {}
+            ).addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+        var popup_586a80da1f21d2e695cfa7029f1f97c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c51f8168fcb2a3f537e01c209aa11324 = $(`<div id="html_c51f8168fcb2a3f537e01c209aa11324" style="width: 100.0%; height: 100.0%;">Depth: 539 km, Magnitude: 4.5, Tsunami Year: 2012</div>`)[0];
+                popup_586a80da1f21d2e695cfa7029f1f97c1.setContent(html_c51f8168fcb2a3f537e01c209aa11324);
+            
+        
+
+        marker_708a74d660b3e71b9a009d1e0478a3df.bindPopup(popup_586a80da1f21d2e695cfa7029f1f97c1)
+        ;
+
+        
+    
+    
+            var marker_58589a263bf7418f0376c54b95a4ba53 = L.marker(
+                [-5.76, 110.38],
+                {}
+            ).addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+        var popup_bddc0b083cd65f4b70ebc389175fb783 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f81a77573a3ad3c956c40bd19388bf70 = $(`<div id="html_f81a77573a3ad3c956c40bd19388bf70" style="width: 100.0%; height: 100.0%;">Depth: 529 km, Magnitude: 4.8, Tsunami Year: 2018</div>`)[0];
+                popup_bddc0b083cd65f4b70ebc389175fb783.setContent(html_f81a77573a3ad3c956c40bd19388bf70);
+            
+        
+
+        marker_58589a263bf7418f0376c54b95a4ba53.bindPopup(popup_bddc0b083cd65f4b70ebc389175fb783)
+        ;
+
+        
+    
+    
+            var marker_27b76c8ed02db50f58cf4c2f3289559a = L.marker(
+                [-5.76, 110.38],
+                {}
+            ).addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+        var popup_20e822da4ed698c0c242072eece39ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b1a4d2a3d1ab2bc7bc14b33ad77cbc1 = $(`<div id="html_4b1a4d2a3d1ab2bc7bc14b33ad77cbc1" style="width: 100.0%; height: 100.0%;">Depth: 529 km, Magnitude: 4.8, Tsunami Year: 2018</div>`)[0];
+                popup_20e822da4ed698c0c242072eece39ff1.setContent(html_4b1a4d2a3d1ab2bc7bc14b33ad77cbc1);
+            
+        
+
+        marker_27b76c8ed02db50f58cf4c2f3289559a.bindPopup(popup_20e822da4ed698c0c242072eece39ff1)
+        ;
+
+        
+    
+    
+            var marker_4df5b2879773bf420080c7e62200e0a0 = L.marker(
+                [-7.61, 122.7],
+                {}
+            ).addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+        var popup_c3288e68b1ba0b47eb8136c43b429e7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5beeeff74a4aed0b81907bf5e701e389 = $(`<div id="html_5beeeff74a4aed0b81907bf5e701e389" style="width: 100.0%; height: 100.0%;">Depth: 542 km, Magnitude: 4.8, Tsunami Year: 2018</div>`)[0];
+                popup_c3288e68b1ba0b47eb8136c43b429e7d.setContent(html_5beeeff74a4aed0b81907bf5e701e389);
+            
+        
+
+        marker_4df5b2879773bf420080c7e62200e0a0.bindPopup(popup_c3288e68b1ba0b47eb8136c43b429e7d)
+        ;
+
+        
+    
+    
+            var marker_b0efead3d431055e9a71c06efeca4e0c = L.marker(
+                [0.3, 120.25],
+                {}
+            ).addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+        var popup_09120ffb4fa7f5cf3e3c6e968037a3cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c4898c4875e915db3b91237e5c2be09 = $(`<div id="html_7c4898c4875e915db3b91237e5c2be09" style="width: 100.0%; height: 100.0%;">Depth: 539 km, Magnitude: 4.4, Tsunami Year: 2019</div>`)[0];
+                popup_09120ffb4fa7f5cf3e3c6e968037a3cb.setContent(html_7c4898c4875e915db3b91237e5c2be09);
+            
+        
+
+        marker_b0efead3d431055e9a71c06efeca4e0c.bindPopup(popup_09120ffb4fa7f5cf3e3c6e968037a3cb)
+        ;
+
+        
+    
+    
+            var marker_e2c4410374329f4468704099ebf2de8a = L.marker(
+                [5.61, 124.13],
+                {}
+            ).addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+        var popup_6acfd6345348f7436343c66eb1a8b238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3071c85c5209fa3a0ff1f9075e6345a8 = $(`<div id="html_3071c85c5209fa3a0ff1f9075e6345a8" style="width: 100.0%; height: 100.0%;">Depth: 470 km, Magnitude: 4.6, Tsunami Year: 2021</div>`)[0];
+                popup_6acfd6345348f7436343c66eb1a8b238.setContent(html_3071c85c5209fa3a0ff1f9075e6345a8);
+            
+        
+
+        marker_e2c4410374329f4468704099ebf2de8a.bindPopup(popup_6acfd6345348f7436343c66eb1a8b238)
+        ;
+
+        
+    
+    
+            var marker_a6404e10b42a490337aad1965c8cb142 = L.marker(
+                [5.68, 123.95],
+                {}
+            ).addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+        var popup_d56ec9ad5f5ee79bf78416635fb42473 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4d2785f6bf7529952e0d39f1c86f3a7 = $(`<div id="html_d4d2785f6bf7529952e0d39f1c86f3a7" style="width: 100.0%; height: 100.0%;">Depth: 497 km, Magnitude: 4.6, Tsunami Year: 2021</div>`)[0];
+                popup_d56ec9ad5f5ee79bf78416635fb42473.setContent(html_d4d2785f6bf7529952e0d39f1c86f3a7);
+            
+        
+
+        marker_a6404e10b42a490337aad1965c8cb142.bindPopup(popup_d56ec9ad5f5ee79bf78416635fb42473)
+        ;
+
+        
+    
+    
+            tile_layer_0b8d8898ff70f59908893fb57ef00943.addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+    
+            tile_layer_0b8d8898ff70f59908893fb57ef00943.addTo(map_0fcf39a5ae6323b3ad04d0d3e0652c29);
+        
+</script>
+</html>
